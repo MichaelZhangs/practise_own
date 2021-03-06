@@ -11,8 +11,8 @@ iframe = driver.find_element_by_tag_name("iframe")
 driver.switch_to.frame(iframe)
 
 driver.find_element_by_class_name('account-tab-account').click()
-driver.find_element_by_id('username').send_keys("zhang879966081@qq.com")
-driver.find_element_by_id('password').send_keys("Zhang9311520")
+driver.find_element_by_id('username').send_keys("*******")
+driver.find_element_by_id('password').send_keys("***********")
 driver.find_element_by_class_name('btn-account').click()
 time.sleep(5)
 
@@ -20,8 +20,8 @@ time.sleep(5)
 
 # driver.quit()
 #
-# driver.find_element_by_id("username").send_keys("zhang879966081@qq.com")
-# driver.find_element_by_id("password").send_keys("Zhang9311520")
+# driver.find_element_by_id("username").send_keys("*********")
+# driver.find_element_by_id("password").send_keys("********")
 # time.sleep(3)
 # driver.find_element_by_class_name("btn-account").click()
 
