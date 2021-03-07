@@ -18,10 +18,4 @@ time.sleep(5)
 
 
 
-# driver.quit()
-#
-# driver.find_element_by_id("username").send_keys("zhang879966081@qq.com")
-# driver.find_element_by_id("password").send_keys("Zhang9311520")
-# time.sleep(3)
-# driver.find_element_by_class_name("btn-account").click()
 
