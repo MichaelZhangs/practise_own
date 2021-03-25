@@ -1,29 +1,19 @@
-ret = [ ]
-lst = [ ]
-num = 12
-def findNum():
-    for i in range(2, num+1):
-        if num % i == 0:
-            ret.append(i)
-            break
-def judge(num):
+def fun(num):
+    if num < 2:
+        return True
+    a = 2
+    b =  num // 2
+    while a  <= b:
+        x = a + (b - a) // 2
+        c = x * x
+        print("-->", c)
+        if c == num:
+            return True
+        if c > num:
+            b = x - 1
+        else:
+            a = x + 1
 
-        if num % ret[0] == 0:
-            lst.append(ret[0])
-            num /= ret[0]
-
-            return judge(num)
-def fun():
-    s = 1
-    for i in lst:
-        s *= i
-    if s == num:
-        return  True
     return  False
-
-findNum()
-judge(num)
-print(fun())
-
-
-
+a = fun(21)
+print(a)
