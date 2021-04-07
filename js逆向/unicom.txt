@@ -1,0 +1,40 @@
+{"source_city": "V0360100", "user_percent": "13.8002%"}
+{"source_city": "V0362400", "user_percent": "12.5078%"}
+{"source_city": "V0362233", "user_percent": "12.2838%"}
+{"source_city": "V0362500", "user_percent": "9.964%"}
+{"source_city": "V0362200", "user_percent": "9.5074%"}
+{"source_city": "V0360400", "user_percent": "8.215%"}
+{"source_city": "V0360300", "user_percent": "5.1242%"}
+{"source_city": "V0360200", "user_percent": "3.3321%"}
+{"source_city": "V0360600", "user_percent": "2.2228%"}
+{"source_city": "V0360500", "user_percent": "2.1561%"}
+{"source_city": "V0440100", "user_percent": "1.5745%"}
+{"source_city": "V0352600", "user_percent": "1.3268%"}
+{"source_city": "V0441401", "user_percent": "1.1717%"}
+{"source_city": "V0440201", "user_percent": "1.1308%"}
+{"source_city": "V0441900", "user_percent": "1.12%"}
+{"source_city": "V0350400", "user_percent": "0.9757%"}
+{"source_city": "V0440300", "user_percent": "0.9068%"}
+{"source_city": "V0431000", "user_percent": "0.7129%"}
+{"source_city": "V0441600", "user_percent": "0.6979%"}
+{"source_city": "V0350200", "user_percent": "0.6526%"}
+{"trip_city_1": "V0440300", "trip_city_2": "V0441900", "trip_city_3": "V0440100", "user_percent": "4.92%"}
+{"trip_city_1": "V0441900", "trip_city_2": "V0440300", "trip_city_3": "V0440100", "user_percent": "3.99%"}
+{"trip_city_1": "V0440300", "trip_city_2": "V0441900", "trip_city_3": "V0441300", "user_percent": "3.82%"}
+{"trip_city_1": "V0441900", "trip_city_2": "V0440300", "trip_city_3": "V0441300", "user_percent": "3.52%"}
+{"trip_city_1": "V0441300", "trip_city_2": "V0440300", "trip_city_3": "V0441900", "user_percent": "2.49%"}
+{"trip_city_1": "V0440300", "trip_city_2": "V0441300", "trip_city_3": "V0441900", "user_percent": "2.14%"}
+{"trip_city_1": "V0440300", "trip_city_2": "V0440100", "trip_city_3": "V0441900", "user_percent": "2.01%"}
+{"trip_city_1": "V0440300", "trip_city_2": "V0440100", "trip_city_3": "V0440600", "user_percent": "1.88%"}
+{"trip_city_1": "V0440100", "trip_city_2": "V0440300", "trip_city_3": "V0441900", "user_percent": "1.7%"}
+{"trip_city_1": "V0440300", "trip_city_2": "V0441900", "trip_city_3": "V0440600", "user_percent": "1.41%"}
+{"trip_city_1": "V0441900", "trip_city_2": "V0440300", "trip_city_3": "V0440600", "user_percent": "1.31%"}
+{"trip_city_1": "V0441900", "trip_city_2": "V0440300", "trip_city_3": "V0510100", "user_percent": "0.92%"}
+{"trip_city_1": "V0440300", "trip_city_2": "V0520100", "trip_city_3": "V0522400", "user_percent": "0.81%"}
+{"trip_city_1": "V0440300", "trip_city_2": "V0441900", "trip_city_3": "V0442000", "user_percent": "0.8%"}
+{"trip_city_1": "V0440300", "trip_city_2": "V0440600", "trip_city_3": "V0440100", "user_percent": "0.72%"}
+{"trip_city_1": "V0441900", "trip_city_2": "V0440300", "trip_city_3": "V0520100", "user_percent": "0.71%"}
+{"trip_city_1": "V0440300", "trip_city_2": "V0440100", "trip_city_3": "V0442000", "user_percent": "0.7%"}
+{"trip_city_1": "V0440300", "trip_city_2": "V0510100", "trip_city_3": "V0513400", "user_percent": "0.65%"}
+{"trip_city_1": "V0441900", "trip_city_2": "V0440300", "trip_city_3": "V0513400", "user_percent": "0.65%"}
+{"trip_city_1": "V0440100", "trip_city_2": "V0440300", "trip_city_3": "V0441300", "user_percent": "0.64%"}
