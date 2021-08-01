@@ -33,7 +33,7 @@ def tts_speak():
 
     text = app.parse_request(request)
 
-    engine.say(text)
+    # engine.say(text)
     engine.runAndWait()
 
     content = word.init_new_file(text)

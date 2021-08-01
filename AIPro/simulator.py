@@ -1,5 +1,7 @@
 import requests
 import socket
+import speech_recognition as sr
+import datetime
 class Simulator():
     def get_host_ip(self):
         try:
@@ -13,6 +15,7 @@ class Simulator():
 
     def send_post(self, text):
         data = {
+
             "txt":text
         }
 
@@ -25,9 +28,19 @@ class Simulator():
     def people_say(self):
         while True:
             print("[pls say something] : ")
-            s = input()
-            return s
+        #     s = input()
+        #     return s
+            r = sr.Recognizer()
+            with sr.Microphone() as source:
+                audio = r.listen(source)
+                said = ""
+                try:
+                    said = r.recognize_google(audio, language="zh-CN")
+                except Exception as e:
+                    print(e)
+            print(said)
 
+            return said
     def send(self):
         end_words = ["再见","拜拜","goodbye","bye"]
         while True:

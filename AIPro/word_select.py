@@ -28,9 +28,18 @@ class Word():
 
         df = df.reset_index(drop=True)
 
+        print("df.intent = ", df.intent.tolist())
         intent_df = df[
-        df.intent == txt
-    ]
+            df.intent == txt
+            ]
+
+
+        if txt not in df.intent.tolist() and txt:
+            txt = "无法识别"
+            intent_df = df[
+                df.intent == txt
+            ]
+
         print(intent_df.content.sample().iloc[0])
 
         return intent_df.content.sample().iloc[0]
