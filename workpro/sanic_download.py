@@ -11,7 +11,7 @@ class DownLoadView(HTTPMethodView):
         EXPORT_PATH = "./data/"
 
         import xlsxwriter
-        file_path = os.path.join(EXPORT_PATH, "shuijun222.xlsx")
+        file_path = os.path.join(EXPORT_PATH, "a.xlsx")
         workbook = xlsxwriter.Workbook(file_path)
         rows = ["手机号", "头像",  "性别", "公司", "部门", "职位"]
         sheet = workbook.add_worksheet()
