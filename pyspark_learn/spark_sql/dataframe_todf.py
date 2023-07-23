@@ -18,6 +18,7 @@ df1 = rdd.toDF(["name", "age"])
 df1.printSchema()
 df1.show()
 
+
 schema = StructType().add("name", StringType(), nullable=True). \
             add("age", IntegerType(), nullable=False)
 
